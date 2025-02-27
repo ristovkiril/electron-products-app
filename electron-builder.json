@@ -1,0 +1,15 @@
+{
+  "appId": "com.kirilristov.electron-products-app",
+  "files": ["dist-electron", "dist-react"],
+  "icon": "./react.svg",
+  "mac": {
+    "target": "dmg"
+  },
+  "linux": {
+    "target": "AppImage",
+    "category": "Utility"
+  },
+  "win": {
+    "target": ["portable", "msi"]
+  }
+}
